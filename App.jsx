@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [colorIndex, setColorIndex] = useState(0);
-  const colors = ['aqua', 'dimgrey', 'firebrick', 'indigo']; // Changed lightred to lightcoral as 'lightred' isn't a standard CSS color name
+  const colors = ['aqua', 'dimgrey', 'firebrick', 'indigo']; 
 
   useEffect(() => {
     const currentColor = colors[colorIndex];
